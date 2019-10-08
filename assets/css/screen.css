@@ -1,0 +1,336 @@
+/*
+
+This is a development CSS file which is built to a minified
+production stylesheet in assets/built/screen.css using gulp dev
+
+*/
+
+/* Lib - Local component imports
+/* ---------------------------------------------------------- */
+@import "vars.css";
+@import "components/global.css";
+@import "components/ghost.css";
+@import "components/lists.css";
+@import "components/grid.css";
+@import "components/tables.css";
+@import "components/forms.css";
+@import "components/buttons.css";
+
+/* Main - Theme styles
+/* ---------------------------------------------------------- */
+
+/* Your styles here */
+
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar-light .navbar-brand {
+    padding: 0;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: #ffffff;
+    padding: 0;
+    height: 80px;
+}
+
+button.btn.btn-outline-primary.my-2.my-sm-0 {
+    width: 150px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    height: 80px;
+    text-transform: lowercase;
+}
+
+button.btn.btn-outline-primary.my-2.my-sm-0.login {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: #00a0e4;
+}
+
+button.btn.btn-outline-primary.my-2.my-sm-0.signup {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: #08c288;
+}
+
+ul.navbar-nav {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar-nav li a {
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #281d1d;
+    padding: 0px 20px;
+    letter-spacing: 0;
+}
+
+.dropdown-item {
+    line-height: 2em;
+}
+
+.dropdown-menu.show {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    border-radius: 9px;
+    box-shadow: -1px 4px 3px #00a0e4;
+}
+
+.container.coverText {
+    max-width: 840px;
+    text-align: center;
+}
+
+.coverText h2.page-head-title {
+    text-transform: lowercase;
+    color: #ffffff;
+    letter-spacing: -3px;
+    font-size: 84px;
+}
+
+.coverText p {
+    font-size: 29px;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+
+a.btn.btn-primary.btn-lg.active {
+    color: #37abd6;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+.freeTrialCTA {
+    margin: 2em 0em 2em 0em;
+    font-weight: 100;
+}
+
+.vertical-center {
+    min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+    min-height: 60vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+span.oi.oi-caret-right {
+    font-size: 20px;
+    padding-left: 9px;
+    padding-right: 6px;
+}
+
+footer.site-foot.text-center {
+    line-height: 2em;
+    font-size: 1.5em;
+    height: 420px;
+}
+
+.card {
+    border: 0px;
+    box-shadow: none;
+}
+
+.card-deck {
+    margin: 0;
+}
+
+.slidePos {
+    background-image: url(https://image.freepik.com/free-vector/payment-terminal-pos-machine-with-credit-card-vector-illustration_100456-115.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.slideManage {
+    background-image: url(https://image.freepik.com/free-vector/pos-terminal-wireless-mobilepayment-transaction_3446-139.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.slideInsights {
+    background-image: url(https://image.freepik.com/free-vector/payment-terminal-with-credit-card_1284-17021.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.slideExpand {
+    background-image: url(https://image.freepik.com/free-vector/credit-card_24908-47246.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+a.btn.btn-primary.btn-lg.active.freeTrialCTA {
+    padding: 0.5em 2em;
+    border-radius: 0px;
+    text-transform: lowercase;
+}
+
+.ctaStartTrialCTA {
+    font-size: 2em;
+}
+
+/* slider tabs */
+
+card {
+    border: none;
+}
+
+.slider-tabs .nav {
+    background-color: #08c288;
+}
+
+.slider-tabs.nav-tabs {
+    border-bottom: none !important;
+}
+
+.slider-tabs #tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #336683 !important;
+    font-size: 28px;
+    background-color: #a4d6ef !important;
+    border-color: transparent transparent #f3f3f3;
+}
+.slider-tabs #tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    color: #eee;
+    font-size: 28px;
+    background-color: #336683;
+    border: 1px solid #a4d6ef;
+    color: #a4d6ef;
+}
+
+.slider-tabs .nav-item {
+    border-radius: 0 !important;
+    font-size: 28px;
+}
+
+.nav-tabs .nav-link {
+    font-size: 28px;
+}
+
+.slider-tabs .nav-item:last-child {
+    border-top-right-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+}
+
+.slider-tabs .nav-item:first-child {
+    border-top-left-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+}
+
+.tab-pane-frame {
+    margin: 0 auto;
+}
+
+.tab-pane-frame img {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tab-pane-frame img .profile {
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 25px;
+}
+
+.tab-pane p {
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+    color: #121514;
+}
+
+.tab-pane .name {
+    font-family: Open Sans, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 0em 0em 1em 0em;
+    margin: 0 auto;
+    text-align: center;
+    color: #121514;
+}
+.slider-tabs .nav-tabs .nav-link.active {
+    background-color: #292b2b !important;
+    color: white !important;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: Open Sans, sans-serif;
+}
+
+.oi {
+    left: 5px !important;
+    top: 5px !important;
+}
+
+section#footer {
+    background: #292c2c;
+}
+
+section#footer a {
+    color: #ffffff;
+}
+
+section#footer .footerTitle {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 2em;
+    color: #01c287;
+}
+
+.fade-in {
+    -webkit-animation: fade-in 2s cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+    animation: fade-in 2s cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: #01c287;
+    font-size: 2em;
+}
+.nav-tabs .nav-link.active,
+.slider-tabs #tabs .nav-tabs .nav-item.show .nav-link {
+    color: #ffffff !important;
+    background-color: #00a0e4 !important;
+    border: none;
+}
+
+div#carouselReviews {
+    padding: 80px 0px;
+    margin: -10px 20px 50px 0px;
+}
+
+h5.section-title.h1.text-center {
+    font-size: 42px;
+    padding-bottom: 1em;
+}

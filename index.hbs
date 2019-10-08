@@ -1,0 +1,33 @@
+{{!< default}}
+
+
+{{#is "home"}}
+{{#if @site.description}}
+
+<div class="jumbotron jumbotron-fluid vertical-center mainCover" {{#if @site.cover_image}}has-image{{/if}}"
+    {{#if @site.cover_image}} style="background-image: url({{@site.cover_image}}); background-size: cover; margin:0;"
+    {{/if}}">
+    <header class="page-head container coverText">
+        <h2 class="page-head-title">{{@site.description}}</h2>
+        <p>Airpos helps you make transactions, record sales, and track inventory across multiple devices and locations
+        </p>
+
+
+
+        {{> ctaTry30DayFree}}
+
+    </header>
+
+
+</div>
+
+{{> infoSlides}}
+
+
+
+{{> customers}}
+
+
+{{> reviewsWidget}}
+
+{{/if}} {{/is}}
